@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    background-color: rgb(34, 33, 33);
+    height:60px;
+    align-items: center;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+
+ul,li{
+
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+}
+.first{
+    background-image: url(coffee.jpg);
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+
+  
+}
+#shophere.hover{
+    background-color: orange;
+}
+#first_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
